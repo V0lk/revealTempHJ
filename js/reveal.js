@@ -3686,7 +3686,7 @@
 		}
 		// Normal navigation
 		else if( ( isOverview() || previousFragment() === false ) && availableRoutes().left ) {
-			slide( indexh - 1 );
+			slide( indexh - 1, indexv );
 		}
 
 	}
@@ -3701,7 +3701,7 @@
 		}
 		// Normal navigation
 		else if( ( isOverview() || nextFragment() === false ) && availableRoutes().right ) {
-			slide( indexh + 1 );
+			slide( indexh + 1, indexv );
 		}
 
 	}
